@@ -12,7 +12,6 @@
 			//$this->load->library('sessionlogin');
 		}
 
-
 		/*
 		 *  PAGE
 		 *
