@@ -23,7 +23,7 @@
   
 		function cekuser(){
 			//memanggil model login
-			$data['query'] = $this->cek_username_password->cekdb();
+			$data['query'] = $this->user_model->cekdb();
 			//mengecek isi dari model login
 			if($data['query']==null){
 				return false;
